@@ -8,7 +8,7 @@ const Headers = () => {
             Hello,<br /><span className='font-bold text-3xl'>Nayak 👋</span> 
         </h1>
 
-        <button className='text-white font-medium text-lg px-5 py-3 rounded-lg bg-red-700'>Log Out</button>
+        <button className='text-white font-medium text-lg px-5 py-3 rounded-lg bg-red-700 hover:bg-red-800 cursor-pointer transition duration-300'>Log Out</button>
     </div>
   )
 }

@@ -1,0 +1,16 @@
+import React from 'react'
+
+const Headers = () => {
+  return (
+    <div className='flex items-end justify-between '>
+
+        <h1 className='text-white font-medium text-2xl'>
+            Hello,<br /><span className='font-bold text-3xl'>Nayak 👋</span> 
+        </h1>
+
+        <button className='text-white font-medium text-lg px-5 py-3 rounded-lg bg-red-700'>Log Out</button>
+    </div>
+  )
+}
+
+export default Headers
